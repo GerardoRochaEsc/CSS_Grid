@@ -1,0 +1,19 @@
+.contenedor {
+    place-content: end;
+    justify-items: end;
+    align-items: end;
+    border: 5px solid pink;
+    background-color: aliceblue;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 150px 150px;
+    grid-auto-rows: 150px;
+    height: 600px;
+}
+
+.item{
+    border: 5px solid cyan;
+    font-size: 4rem;
+}
+
+
